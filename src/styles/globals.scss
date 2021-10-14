@@ -4,4 +4,33 @@
   padding: 0;
 }
 
-// TODO
+body {
+  font-family: Inter, sans-serif;
+  background: #1A1D23;
+
+  h1 {
+    color: #F8F8F8;
+
+    transition: color 0.5s;
+  }
+
+  p {
+    color: #D7D7D7;
+  }
+
+  time {
+    color: #BBBBBB
+  }
+
+  a {
+    color: initial;
+    text-decoration: none;
+
+    &:hover {
+      h1 {
+        color: #FF57B2;
+      }
+    }
+  }
+}
+

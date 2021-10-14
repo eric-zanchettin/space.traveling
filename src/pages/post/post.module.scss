@@ -1,1 +1,32 @@
-// TODO
+.container {
+  img {
+    width: 100%;
+  }
+}
+
+.content {
+  max-width: 720px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+
+  h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+  }
+
+  .info {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .text {
+    margin: 1.5rem auto;
+    font-size: 14pt;
+    color: #D7D7D7;
+
+    a {
+      color: #FF57B2;
+    }
+  }
+}

@@ -1,1 +1,30 @@
-// TODO
+.container {
+  max-width: 720px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+
+  img {
+    margin-bottom: 3rem;
+  }
+}
+
+.content {
+  margin-bottom: 2.5rem;
+
+  h1, p {
+    margin-bottom: 0.5rem;
+  }
+
+  .info {
+    margin-top: 2rem;
+
+    display: flex;
+    gap: 1.5rem;
+  }
+}
+
+.morePosts {
+  cursor: pointer;
+  color: #FF57B2;
+  font-weight: bolder;
+}
